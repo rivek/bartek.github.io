@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: lightblue;
+        }
+        #n{
+            background-color: lightseagreen;
+            border: 1px solid black;
+            padding: 5px;
+        }
+        #zdjecie1{
+            width: 10%;
+            height: 20%;
+        }
+        #zdjecie2{
+            width: 30%;
+            height: 40%;
+        }
+        #zdjecie3{
+            width: 30%;
+            height: 40%;
+        }
+        span{
+            text-align: center;
+            border-image-source:center;
+        }
+        
+        .centered{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+
+        } 
+        td{
+            border: 1px solid black;
+            font-size: 25px;
+
+        }
+        #td1{
+            background: cadetblue;
+            font-style: italic;
+        }
+        #td2{
+            background-color: chocolate;
+            font-style:bold;
+        }
+        
+        
+    </style>
+</head>
+
+<body>
+    <span><h2 id="n">Samochody</h2>
+    <MARQUEE behavior="alternate"><img src="auto1.jpg" id="zdjecie1" ></MARQUEE>
+    <h3 id="n">Tym będę kiedyś jeździł</h3>
+    <img src="auto2.jpg" id="zdjecie2" class="centered">
+    
+    <h3 id="n">Ostry zakręt</h3>
+    <img src="auto4.gif" id="zdjecie3" class="centered">
+      
+    <h3 id="n">Opis firm</h3></span>
+    <table>
+        <tr>
+            <td id="td1"><strong>Porsche</strong>-niemieckie przedsiębiorstwo produkujące obecnie samochody sportowe oraz luksusowe samochody osobowe, założone w 1931 roku przez Ferdinanda Porsche. Właścicielem spółki jest koncern Volkswagen AG. Siedziba przedsiębiorstwa znajduje się w Stuttgart-Zuffenhausen.</td>
+             <td id="td2"><strong>Kia Motors</strong>– południowokoreańskie przedsiębiorstwo motoryzacyjne produkujące samochody osobowe, dostawcze oraz autobusy należące do Hyundai Motor Group. Nazwa przedsiębiorstwa KIA składa się z dwóch członów: pierwszy ki oznacza „powstać” lub „wychodzić”. Druga część wyrażenia „- a” w koreańskim oznacza Azję.</td>
+        </tr>
+    </table>
+    
+    
+            
+                
+                
+                    
+                
+            
+            
+        
+        
+
+   
+    
+          
+
+
+
+   
+</body>
+</html>
